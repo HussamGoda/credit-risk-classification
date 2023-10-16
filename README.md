@@ -17,8 +17,7 @@ The final Report is given below.
 ## **Introduction and Overview**
 The purpose of this analysis is to produce a Machine Learning (ML) model that may help financial institutions decide whether a loan is healthy and “risk-free” or high-risk. The model uses input information (features) covering measures like loan size, interest rate, income of the borrower, debt-to-income ratio, number of accounts, derogatory marks, and total debt. Such measures are used to decide whether a loan is healthy or not. A dataset that contains 77536 records is used. A binary system is used to define the status of the loan; 0 for a healthy loan and 1 for a high-risk loan.
 
-A few issues should be noted.
--   Input features may need to be checked and confirmed. For example, the input feature (debt_to_income) is dependent on two other input features (borrower_income and total_debt). One of the three features may need to be removed.
+A couple of notes:
 -   Transformation and normalization may need to be considered before developing the model (not covered in the current analysis).
 -   Over 96% of the records given in the dataset are considered healthy loans. The dataset may need to be balanced to produce a more realistic ML model. The model may be “more" affected by the Healthy Loan status records than High-Risk Loan status records.
 
@@ -41,4 +40,4 @@ Overall, the ML model using Logistic Regression demonstrates a high rate of succ
 
 ## **Recommendations**
 
-The model may be partially recommended to be used for predictions. As stated above, the model has a few issues that need to be fixed (remove unnecessary input features, data transformation and balance healthy and high-risk loans number of records). Until such issues are fixed, and although confusion matrix and classification reports indicate excellent performance, I would recommend the model to be used but with an expert eye reviewing the output of the model, especially if the model predicts a high-risk loan.
+The model may be recommended to be used for predictions. Although the confusion matrixes and classification reports indicate excellent performance, I would recommend the model be used but with an expert eye reviewing the output of the model, especially if the model predicts a high-risk loan.
