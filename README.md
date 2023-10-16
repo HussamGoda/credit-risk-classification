@@ -1,8 +1,8 @@
 # credit-risk-classification
 
-# ***Report***
+# **Report**
 
-**Introduction and Overview**
+## **Introduction and Overview**
 The purpose of this analysis is to produce a Machine Learning (ML) model that may help financial institutions decide whether a loan is healthy and “risk-free” or high-risk. The model uses input information (features) covering measures like loan size, interest rate, income of the borrower, debt-to-income ratio, number of accounts, derogatory marks, and total debt. Such measures are used to decide whether a loan is healthy or not. A dataset that contains 77536 records is used. A binary system is used to define the status of the loan; 0 for a healthy loan and 1 for a high-risk loan.
 A few issues should be noted.
 -	Input features may need to be checked and confirmed. For example, the input feature debt_to_income) is dependent on two other input features (borrower_income and total_debt). One of the three features may need to be removed.
@@ -17,7 +17,7 @@ Logistic Regression Model is used for this exercise.
 -	Once the training process is completed, the model is used to predict loan status (the label) using features (input parameters) in both training and testing datasets separately.
 -	Confusion matrix and classification report are calculated for each dataset (training and testing) separately.
 
-**Results**
+## **Results**
 
 Overall, the ML model using Logistic Regression demonstrates a high rate of success. The following may be described.
 -	The model produces high accuracy in predicting loan status for both training and testing datasets (0.99)
