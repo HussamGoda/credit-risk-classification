@@ -1,6 +1,6 @@
 # credit-risk-classification
 
-# **Report**
+# Report
 
 ## **Introduction and Overview**
 The purpose of this analysis is to produce a Machine Learning (ML) model that may help financial institutions decide whether a loan is healthy and “risk-free” or high-risk. The model uses input information (features) covering measures like loan size, interest rate, income of the borrower, debt-to-income ratio, number of accounts, derogatory marks, and total debt. Such measures are used to decide whether a loan is healthy or not. A dataset that contains 77536 records is used. A binary system is used to define the status of the loan; 0 for a healthy loan and 1 for a high-risk loan.
